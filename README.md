@@ -3,7 +3,8 @@
 PicCap v0.5.0
 
 In the new hyperion-webos the NV12 video format has been added to the backends, so that NV12/YUV can be passed to the Hyperion or HyperHDR instead of RGB.
-I have added an NV12 selection field to the user interface and an option to automatically save it in config.json.
+
+I have added an NV12 selection field to the user interface and an option to save the selected NV12 setting in config.json.
 
 ![PicCap GUI](https://github.com/user-attachments/assets/85662db0-ec27-474e-a54a-961f1319f3ee)
 
