@@ -5,6 +5,9 @@ PicCap v0.5.0
 In the new hyperion-webos the NV12 video format has been added to the backends, so that NV12/YUV can be passed to the Hyperion or HyperHDR instead of RGB.
 I have added an NV12 selection field to the user interface and an option to automatically save it in config.json.
 
+![PicCap GUI](https://github.com/user-attachments/assets/85662db0-ec27-474e-a54a-961f1319f3ee)
+
+
 See the pull request:https://github.com/TBSniller/piccap/pull/90 and https://github.com/satgit62/piccap/tree/NV12
 
 However, bumping an action to build PicCap ends with an error building the flattcc-native. See:https://github.com/satgit62/piccap/actions/runs/12784714938/job/35638252198
