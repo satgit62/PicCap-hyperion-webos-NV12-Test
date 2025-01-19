@@ -19,16 +19,18 @@ The easiest solution for me was to compile PicCap UI and the current hyperion we
 
 # PicCap Build in a Linux development needs, buildroot-nc4 toolchain and Node.js.
 
+https://github.com/openlgtv/buildroot-nc4
+
 # Setup buildroot-nc4 
 ```
 cd /desired/path
-wget -O toolchain.tar.gz $TOOLCHAIN_URL_FROM_RELEASES
+wget -O toolchain.tar.gz https://github.com/openlgtv/buildroot-nc4/releases/download/webos-b17b4cc/arm-webos-linux-gnueabi_sdk-buildroot.tar.gz
 tar -xvzf toolchain.tar.gz
 rm toolchain.tar.gz
 arm-webos-linux-gnueabi_sdk-buildroot/relocate-sdk.sh
 export CMAKE_TOOLCHAIN_FILE=/desired/path/arm-webos-linux-gnueabi_sdk-buildroot/share/buildroot/toolchainfile.cmake
 ```
-----------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
 # PicCap Build
 ```
 git clone -b NV12 --recursive https://github.com/satgit62/piccap piccap-build
