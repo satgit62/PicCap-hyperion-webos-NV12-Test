@@ -35,7 +35,7 @@ git clone -b NV12 --recursive https://github.com/satgit62/piccap piccap-build
 cd piccap-build
 npm install
 # Only run 'npm run-script package' and do not try to compile 'hyperion-webos' yourself. Otherwise, the build folder will be overwritten.
-npm run-script packag
+npm run-script package
 ```
 
 After building all files can be found in ./build.
